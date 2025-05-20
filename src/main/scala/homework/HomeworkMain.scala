@@ -5,7 +5,6 @@ import akka.actor.typed._
 import akka.actor.typed.scaladsl._
 
 import homework.AkkaWriteSide._
-import scala.concurrent.Future
 
 object HomeworkMain {
     def apply(): Behavior[NotUsed] =
